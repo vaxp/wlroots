@@ -1,3 +1,4 @@
+```
 sudo apt update && sudo apt install -y \
     xwayland \
     liblcms2-dev \
@@ -11,7 +12,10 @@ sudo apt update && sudo apt install -y \
     libxcb-res0-dev \
 
 
+```
 
+```
 meson setup build --prefix=/usr --buildtype=release
 meson compile -C build
 sudo meson install -C build# wlroots
+```
