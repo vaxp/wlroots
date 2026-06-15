@@ -9,7 +9,7 @@ sudo apt update && sudo apt install -y \
     libxcb-composite0-dev \
     libxcb-dri3-dev \
     libxcb-present-dev \
-    libxcb-res0-dev \
+    libxcb-res0-dev 
 
 
 ```
